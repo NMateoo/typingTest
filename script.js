@@ -1,6 +1,7 @@
 const btnStart = document.getElementById('btnStart');
 const write = document.getElementById('write');
 const instructions = document.getElementById('instructions');
+const header = document.querySelector('header');
 let start = false;
 
 btnStart.addEventListener('click', e => {
